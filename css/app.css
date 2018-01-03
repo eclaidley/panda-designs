@@ -1,0 +1,56 @@
+.top-bar {
+	background-color: white;
+}
+
+.fa-bars {
+	background-color: white;
+}
+
+#logo {
+	width: 10%;
+	height: 10%;
+	margin-left: 4%;
+}
+
+#body-content {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1,
+h2 {
+	font-family: verveine, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h2 {
+	text-decoration: underline;
+	text-decoration-color: #F2526E;
+	-webkit-text-decoration-color: #F2526E;
+}
+
+p,
+#services-list {
+	font-family: mr-eaves-modern, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#services-list,
+.content-box {
+	border: 5px solid #6DDDF2;
+}
+
+a {
+	color: #F2526E;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #F2526E;
+}
+
+.footer-right {
+	text-align: right;
+}
