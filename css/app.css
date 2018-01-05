@@ -58,3 +58,21 @@ a:hover {
 .footer-right {
 	text-align: right;
 }
+
+#employers .cell {
+	text-align: center;
+	padding: 1em 0.5em;
+}
+
+#employers img {
+	max-width: 10em;
+	max-height: 5em;
+}
+
+#employers .logo-waterloo-mathematics img {
+	max-width: 15em;
+}
+
+#employers .logo-500px img {
+	max-height: 3em;
+}
