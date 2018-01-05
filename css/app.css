@@ -1,4 +1,7 @@
 body {
+	font-family: mr-eaves-modern, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 	background-color: white;
 }
 
@@ -34,13 +37,6 @@ h2 {
 	-webkit-text-decoration-color: #F2526E;
 }
 
-p,
-#services-list {
-	font-family: mr-eaves-modern, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-
 #services-list,
 .content-box {
 	border: 5px solid #6DDDF2;
@@ -57,4 +53,22 @@ a:hover {
 
 .footer-right {
 	text-align: right;
+}
+
+#employers .cell {
+	text-align: center;
+	padding: 1em 0.5em;
+}
+
+#employers img {
+	max-width: 10em;
+	max-height: 5em;
+}
+
+#employers .logo-waterloo-mathematics img {
+	max-width: 15em;
+}
+
+#employers .logo-500px img {
+	max-height: 3em;
 }
