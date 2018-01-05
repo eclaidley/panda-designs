@@ -1,4 +1,7 @@
 body {
+	font-family: mr-eaves-modern, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 	background-color: white;
 }
 
@@ -32,13 +35,6 @@ h2 {
 	text-decoration: underline;
 	text-decoration-color: #F2526E;
 	-webkit-text-decoration-color: #F2526E;
-}
-
-p,
-#services-list {
-	font-family: mr-eaves-modern, sans-serif;
-	font-style: normal;
-	font-weight: 400;
 }
 
 #services-list,
