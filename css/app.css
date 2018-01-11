@@ -72,3 +72,23 @@ a:hover {
 #employers .logo-500px img {
 	max-height: 3em;
 }
+
+#our-work .cell {
+	margin-bottom: 2em;
+}
+
+#our-work a {
+	display: block;
+	padding: 1em;
+	border: 5px solid #6DDDF2;
+}
+
+#our-work a img {
+	display: block;
+	opacity: 0.9;
+	transition: opacity 0.3s ease;
+}
+
+#our-work a:hover img {
+	opacity: 1;
+}
