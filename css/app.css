@@ -95,3 +95,11 @@ a:hover {
 #our-work a:hover img {
 	opacity: 1;
 }
+
+h2 a {
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #F2526E;
+	-webkit-text-decoration-color: #F2526E;
+	font-weight: normal;
+}
