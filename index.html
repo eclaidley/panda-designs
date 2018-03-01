@@ -9,96 +9,107 @@
 		<link rel="stylesheet" href="css/app.css">
 	</head>
 	<body>
-		<div class="top-bar">
-			<div class="top-bar-right">
-    			<ul class="menu">
-					<li><i class="fa fa-bars"></i></li>
-				</ul>
+		<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+			<ul class="vertical menu">
+				<li><a href="about.html">Who We Are</a></li>
+				<li><a href="work.html">Our Work</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="off-canvas-content" data-off-canvas-content>
+			<div class="top-bar">
+				<div class="top-bar-right">
+	    			<button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+				</div>
+			</div>
+			<img id="logo" src="https://rlv.zcache.com/kawaii_cute_panda_face_classic_round_sticker-rc2bf5b4f47df4f16a72ef62e8879b54b_v9waf_8byvr_324.jpg" alt="#">
+			<div id="body-content">
+				<div id="header">
+					<h1>Panda Designs</h1>
+					<h2>who we are.</h2>
+					<div class="content-box">
+						<p class="lead">We're interested in creating the ideal user experience - clean, easy to understand, and <strong>very</strong> aesthetic.</p>
+						<p>We have more than 9 years of professional experience in crafting carefully-designed online experiences for small businesses, providing them with a competitive edge in today's connected world. Meet the makers (and see photos of their cute cat) <strong><a href="about.html">here</a></strong>.</p>
+					</div>
+				</div>
+				<div id="our-work">
+					<h2><a href="work.html">our work.</a></h2>
+					<div class="grid-container">
+						<div class="grid-x grid-padding-x">
+							<div class="small-12 medium-6 large-4 cell">
+								<a href="soapbox.html"><img src="img/work/soapbox-website.png" alt="SoapBox Website Development"></a>
+							</div>
+							<div class="small-12 medium-6 large-4 cell">
+								<a href="ipt.html"><img src="img/work/ipt-website.png" alt="Innovative Protein Technologies Website"></a>
+							</div>
+							<div class="small-12 medium-6 large-4 cell">
+								<a href="palette.html"><img src="img/work/palette-website.jpg" alt="Palette Website Development"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="services">
+					<h2>services.</h2>
+					<div id="services-list">
+						<div>
+							<p>We offer a variety of services on a case-by-case basis, including:</p>
+						</div>
+						<div class="grid-x margin-x">
+						<div class="small-12 medium-6 cell">
+							<ul>
+								<li>responsive website design</li>
+								<li>CMS integration</li>
+								<li>blog/publishing setup</li>
+								<li>e-commerce/online store integration</li>
+							</ul>
+						</div>
+						<div class="small-12 medium-6 cell">
+							<ul>
+								<li>email newsletter design</li>
+								<li>contact forms</li>
+								<li>product photography</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="employers">
+					<h2>we've worked with.</h2>
+					<div class="grid-x grid-padding-x align-middle">
+						<div class="small-6 medium-3 cell logo-palette">
+							<a href="https://palettegear.com" target="_blank"><img src="img/logos/palette.svg" alt="Palette"></a>
+						</div>
+						<div class="small-6 medium-3 cell logo-ipt">
+							<a href="http://www.proteininnovations.ca" target="_blank"><img src="img/logos/ipt.svg" alt="Innovative Protein Technologies"></a>
+						</div>
+						<div class="small-6 medium-3 cell logo-igem">
+							<a href="http://2015.igem.org/Team:Waterloo" target="_blank"><img src="img/logos/igem.svg" alt="iGEM"></a>
+						</div>
+						<div class="small-6 medium-3 cell logo-soapbox">
+							<a href="https://soapboxhq.com" target="_blank"><img src="img/logos/soapbox.svg" alt="SoapBox"></a>
+						</div>
+						<div class="small-6 medium-4 cell logo-enlight">
+							<a href="https://enlightme.ca" target="_blank"><img src="img/logos/enlight.svg" alt="enLIGHT"></a>
+						</div>
+						<div class="small-6 medium-4 cell logo-waterloo-mathematics">
+							<a href="https://uwaterloo.ca/math/" target="_blank"><img src="img/logos/waterloo-mathematics.svg" alt="University of Waterloo Faculty of Mathematics"></a>
+						</div>
+						<div class="small-12 medium-4 cell logo-500px">
+							<a href="https://500px.com/" target="_blank"><img src="img/logos/500px.svg" alt="500px"></a>
+						</div>
+					</div>
+				<h2>work with us.</h2>
+				<p>if you like what you see here, <a href="contact.html">contact us</a>!</p>
+				<div class="footer-right">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-instagram"></i>
+					<i class="fa fa-medium"></i>
+				</div>
 			</div>
 		</div>
-		<img id="logo" src="https://rlv.zcache.com/kawaii_cute_panda_face_classic_round_sticker-rc2bf5b4f47df4f16a72ef62e8879b54b_v9waf_8byvr_324.jpg" alt="#">
-		<div id="body-content">
-			<div id="header">
-				<h1>Panda Designs</h1>
-				<h2>who we are.</h2>
-				<div class="content-box">
-					<p class="lead">We're interested in creating the ideal user experience - clean, easy to understand, and <strong>very</strong> aesthetic.</p>
-					<p>We have more than 9 years of professional experience in crafting carefully-designed online experiences for small businesses, providing them with a competitive edge in today's connected world. Meet the makers (and see photos of their cute cat) <strong><a href="about.html">here</a></strong>.</p>
-				</div>
-			</div>
-			<div id="our-work">
-				<h2>our work.</h2>
-				<div class="grid-container">
-					<div class="grid-x grid-padding-x">
-						<div class="small-12 medium-6 large-4 cell">
-							<a href="soapbox.html"><img src="img/work/soapbox-website.png" alt="SoapBox Website Development"></a>
-						</div>
-						<div class="small-12 medium-6 large-4 cell">
-							<a href="ipt.html"><img src="img/work/ipt-website.png" alt="Innovative Protein Technologies Website"></a>
-						</div>
-						<div class="small-12 medium-6 large-4 cell">
-							<a href="palette.html"><img src="img/work/palette-website.jpg" alt="Palette Website Development"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="services">
-				<h2>services.</h2>
-				<div id="services-list">
-					<div>
-						<p>We offer a variety of services on a case-by-case basis, including:</p>
-					</div>
-					<div class="grid-x margin-x">
-					<div class="small-12 medium-6 cell">
-						<ul>
-							<li>responsive website design</li>
-							<li>CMS integration</li>
-							<li>blog/publishing setup</li>
-							<li>e-commerce/online store integration</li>
-						</ul>
-					</div>
-					<div class="small-12 medium-6 cell">
-						<ul>
-							<li>email newsletter design</li>
-							<li>contact forms</li>
-							<li>product photography</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div id="employers">
-				<h2>we've worked with.</h2>
-				<div class="grid-x grid-padding-x align-middle">
-					<div class="small-6 medium-3 cell logo-palette">
-						<a href="https://palettegear.com" target="_blank"><img src="img/logos/palette.svg" alt="Palette"></a>
-					</div>
-					<div class="small-6 medium-3 cell logo-ipt">
-						<a href="http://www.proteininnovations.ca" target="_blank"><img src="img/logos/ipt.svg" alt="Innovative Protein Technologies"></a>
-					</div>
-					<div class="small-6 medium-3 cell logo-igem">
-						<a href="http://2015.igem.org/Team:Waterloo" target="_blank"><img src="img/logos/igem.svg" alt="iGEM"></a>
-					</div>
-					<div class="small-6 medium-3 cell logo-soapbox">
-						<a href="https://soapboxhq.com" target="_blank"><img src="img/logos/soapbox.svg" alt="SoapBox"></a>
-					</div>
-					<div class="small-6 medium-4 cell logo-enlight">
-						<a href="https://enlightme.ca" target="_blank"><img src="img/logos/enlight.svg" alt="enLIGHT"></a>
-					</div>
-					<div class="small-6 medium-4 cell logo-waterloo-mathematics">
-						<a href="https://uwaterloo.ca/math/" target="_blank"><img src="img/logos/waterloo-mathematics.svg" alt="University of Waterloo Faculty of Mathematics"></a>
-					</div>
-					<div class="small-12 medium-4 cell logo-500px">
-						<a href="https://500px.com/" target="_blank"><img src="img/logos/500px.svg" alt="500px"></a>
-					</div>
-				</div>
-			<h2>work with us.</h2>
-			<p>if you like what you see here, <a href="contact.html">contact us</a>!</p>
-			<div class="footer-right">
-				<i class="fa fa-facebook"></i>
-				<i class="fa fa-twitter"></i>
-				<i class="fa fa-instagram"></i>
-				<i class="fa fa-medium"></i>
-			</div>
-		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+		<script>jQuery(document).foundation();</script>
 	</body>
 </html>
