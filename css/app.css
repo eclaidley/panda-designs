@@ -133,3 +133,11 @@ h2 a {
 	width: 100%;
 	max-width: 600px;
 }
+
+label {
+	font-size: 25px;
+}
+
+textarea {
+	font-size: 18px;
+}
