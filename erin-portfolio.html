@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Personal Portfolio | Panda Designs</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://use.typekit.net/thu3iqa.css">
-		<link rel="stylesheet" href="css/app.css">
-	</head>
-	
-	<body>   
-  	<h1>Personal Portfolio</h1>
-    <div class="grid-container fluid">
-      <div class="grid-x grid-padding-x">
-      	<div class="small-12 cell">
-          <p class="lead"><a href="https://eclaidley.github.io">Erin Laidley</a> is a biologist and entrepreneur from Kitchener, Ontario. She wanted a clean, simple layout to showcase her work to recruiters; the fonts and copy were carefully chosen to highlight her playful personality.</p>
-        </div>
-        <div class="small-8 cell">
-          <img src="img/work/erin-portfolio.png" alt="Portfolio homepage">
-        </div>
-        <div class="small-12 cell">
-          <h2>Features</h2>
-          <ul>
-            <li>Responsive website design</li>
-            <li>Professional portrait photography</li>
-            <li>Business card design</li>
-          </ul>
-          <p>Click <strong><a href="https://eclaidley.github.io">here</a></strong> to see it live or look below for representative photos.</p>
-        </div>
-      </div>
-    </div>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Portfolio | Panda Designs</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.typekit.net/thu3iqa.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>   
+	<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+		<ul class="vertical menu">
+			<li><a href="about.html">Who We Are</a></li>
+			<li><a href="work.html">Our Work</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<div class="off-canvas-content" data-off-canvas-content>
+		<div class="top-bar">
+			<div class="top-bar-right">
+    			<button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+			</div>
+		</div>
+		<a href="index.html">
+			<img id="logo" src="https://rlv.zcache.com/kawaii_cute_panda_face_classic_round_sticker-rc2bf5b4f47df4f16a72ef62e8879b54b_v9waf_8byvr_324.jpg" alt="Panda Designs">
+		</a>
+		<h1>Personal Portfolio</h1>
+		<div class="grid-container fluid">
+			<div class="grid-x grid-padding-x">
+				<div class="small-12 cell">
+					<p class="lead"><a href="https://eclaidley.github.io">Erin Laidley</a> is a biologist and entrepreneur from Kitchener, Ontario. She wanted a clean, simple layout to showcase her work to recruiters; the fonts and copy were carefully chosen to highlight her playful personality.</p>
+				</div>
+				<div class="small-8 cell">
+					<img src="img/work/erin-portfolio.png" alt="Portfolio homepage">
+				</div>
+				<div class="small-12 cell">
+					<h2>Features</h2>
+					<ul>
+						<li>Responsive website design</li>
+						<li>Professional portrait photography</li>
+						<li>Business card design</li>
+					</ul>
+					<p>Click <strong><a href="https://eclaidley.github.io">here</a></strong> to see it live or look below for representative photos.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+	<script>jQuery(document).foundation();</script>
+</body>
 
 </html>
