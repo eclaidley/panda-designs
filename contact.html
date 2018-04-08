@@ -39,14 +39,30 @@
 						formId: "75bdea10-a08d-47fa-9187-a313e9c54a71"
 						});
 					</script> -->
-					<form>
-						<input type="text" placeholder="Name" name="name">
-						<input type="email" placeholder="Email" name="email">
-						<textarea placeholder="Your Message Here" name="message"></textarea>
-						<input type="submit" name="submit">
-					</form>
 				</div>
 			</div>
+			<form>
+				<div class="grid-container">
+					<div class="grid-x grid-padding-x">
+				    	<div class="medium-6 cell">
+					        <label>Name
+					          <input type="text" placeholder="name" name="name">
+					        </label>
+				    	</div>
+					    <div class="medium-6 cell">
+					    	<label>Email
+					        	<input type="email" placeholder="email" name="email">
+					        </label>
+				    	</div>
+				    	<div class="medium-12 cell">
+				    		<label>Message
+				    			<textarea rows="5" placeholder="your message here"></textarea>
+							</label>
+							<input type="submit" name="submit">
+						</div>
+					</div>
+				</div>
+			</form>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
