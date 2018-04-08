@@ -9,30 +9,48 @@
 		<link rel="stylesheet" href="css/app.css">
 	</head>
 	<body>
-		<div class="grid-container">
-  			<div class="grid-x grid-margin-x">
-				<div class="small-12 cell">
-					<h1>About Us</h1>
-					<p>We are a team of creatives based in Kitchener-Waterloo that specialize in professional web work for small businesses. We have worked with clients of all sizes, in cities from San Francisco to New York. With a combined 10 years of experience, we are excited to begin working with you.</p>
-				</div>
-				<div class="small-12 cell">
-					<img src="img/nickrin.jpg"> <!-- insert kitty photo here soon -->
+		<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+			<ul class="vertical menu">
+				<li><a href="about.html">Who We Are</a></li>
+				<li><a href="work.html">Our Work</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="off-canvas-content" data-off-canvas-content>
+			<div class="top-bar">
+				<div class="top-bar-right">
+		    		<button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
 				</div>
 			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="small-12 cell">
-					<h2>connect with us.</h2>
+			<div class="grid-container">
+	  			<div class="grid-x grid-margin-x">
+					<div class="small-12 cell">
+						<h1>About Us</h1>
+						<p>We are a team of creatives based in Kitchener-Waterloo that specialize in professional web work for small businesses. We have worked with clients of all sizes, in cities from San Francisco to New York. With a combined 10 years of experience, we are excited to begin working with you.</p>
+					</div>
+					<div class="small-12 cell">
+						<img src="img/nickrin.jpg"> <!-- insert kitty photo here soon -->
+					</div>
 				</div>
-				<div class="small-6 cell">
-					<i class="fa fa-facebook"></i>
-					<i class="fa fa-twitter"></i>
-					<i class="fa fa-instagram"></i>
-					<i class="fa fa-medium"></i>
-				</div>
-				<div class="small-6 cell">
-					<img src="img/maps.png">
+				<div class="grid-x grid-padding-x">
+					<div class="small-12 cell">
+						<h2>connect with us.</h2>
+					</div>
+					<div class="small-6 cell">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-medium"></i>
+					</div>
+					<div class="small-6 cell">
+						<img src="img/maps.png">
+					</div>
 				</div>
 			</div>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+		<script>jQuery(document).foundation();</script>
 	</body>
 </html>

@@ -8,40 +8,56 @@
         <link rel="stylesheet" href="https://use.typekit.net/thu3iqa.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
-
     <body id="palette-website">
-        <h1>Palette Website</h1>
-        <div class="grid-container fluid">
-            <div class="grid-x grid-padding-x">
-                <div class="small-12 cell">
-                    <p>Palette is a modular hardware controller used by creative professionals to control photography, video editing, and other design software. We worked with the Palette team to re-design and deploy their marketing and support websites.</p>
-                    <p><strong><a href="https://palettegear.com">View the live site </a></strong> or see screenshots below.</p>
-                </div>
-            <div class="small-8 cell">
-                <img src="img/work/palette/why-palette.png" alt="Why Palette page">
-            </div>
-
-            <div class="small-12 cell">
-                <h2>Features</h2>
-                <ul>
-                    <li>Responsive, mobile-friendly design</li>
-                    <li>Home page background video and interactive animations</li>
-                    <li>Zendesk, Shopify and Mailchip integrations</li>
-                    <li>Google Analytics and Adwords integration</li>
-                </ul>
-            </div>
-
-            <div class="small-8 cell">
-                <img src="img/work/palette/phone.png" alt="Palette website on Phone with navigation">
-            </div>
-            <div class="small-8 cell">
-                <video muted playsinline autoplay loop>
-                    <source src="img/work/palette/animation.mp4" type="video/mp4">
-                    <p>Video not supported</p>
-                </video>
-            </div>
-          </div>
+        <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+            <ul class="vertical menu">
+                <li><a href="about.html">Who We Are</a></li>
+                <li><a href="work.html">Our Work</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="top-bar">
+                <div class="top-bar-right">
+                    <button type="button" class="button" data-toggle="offCanvas"><i class="fa fa-bars"></i></button>
+                </div>
+            </div>
+            <h1>Palette Website</h1>
+            <div class="grid-container fluid">
+                <div class="grid-x grid-padding-x">
+                    <div class="small-12 cell">
+                        <p>Palette is a modular hardware controller used by creative professionals to control photography, video editing, and other design software. We worked with the Palette team to re-design and deploy their marketing and support websites.</p>
+                        <p><strong><a href="https://palettegear.com">View the live site </a></strong> or see screenshots below.</p>
+                    </div>
+                <div class="small-8 cell">
+                    <img src="img/work/palette/why-palette.png" alt="Why Palette page">
+                </div>
+
+                <div class="small-12 cell">
+                    <h2>Features</h2>
+                    <ul>
+                        <li>Responsive, mobile-friendly design</li>
+                        <li>Home page background video and interactive animations</li>
+                        <li>Zendesk, Shopify and Mailchip integrations</li>
+                        <li>Google Analytics and Adwords integration</li>
+                    </ul>
+                </div>
+                <div class="small-8 cell">
+                    <img src="img/work/palette/phone.png" alt="Palette website on Phone with navigation">
+                </div>
+                <div class="small-8 cell">
+                    <video muted playsinline autoplay loop>
+                        <source src="img/work/palette/animation.mp4" type="video/mp4">
+                        <p>Video not supported</p>
+                    </video>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+        <script>jQuery(document).foundation();</script>
     </body>
 
 </html>
