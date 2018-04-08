@@ -138,6 +138,8 @@ label {
 	font-size: 25px;
 }
 
-textarea {
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email],
+[type=month], [type=number], [type=password], [type=search], [type=tel],
+[type=text], [type=time], [type=url], [type=week], textarea {
 	font-size: 18px;
 }
