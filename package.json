@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pandadesigns/pandadesigns.github.io#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3"
   }
 }
