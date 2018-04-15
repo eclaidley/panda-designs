@@ -18,6 +18,8 @@
   "homepage": "https://github.com/pandadesigns/pandadesigns.github.io#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.4"
   }
 }
