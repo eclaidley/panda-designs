@@ -1,0 +1,22 @@
+{
+  "name": "panda-designs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandadesigns/pandadesigns.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandadesigns/pandadesigns.github.io/issues"
+  },
+  "homepage": "https://github.com/pandadesigns/pandadesigns.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
